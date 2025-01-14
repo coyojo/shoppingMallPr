@@ -36,4 +36,6 @@ class MemberControllerTest {
         Member member = Member.createMember(memberFormDto,passwordEncoder);
         return memberService.saveMember(member);
     }
+
+    
 }
