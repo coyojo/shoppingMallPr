@@ -31,6 +31,8 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-security'
     // Spring Security Test 추가
     testImplementation 'org.springframework.security:spring-security-test'
+    //Spring Security와 Thymeleaf를 연동시켜 템플릿에서 권한과 사용자 정보를 쉽게 다룰 수 있게 해주는 의존성추가
+    implementation 'org.thymeleaf.extras:thymeleaf-extras-springsecurity6'
     implementation 'org.springframework.boot:spring-boot-starter-validation'
     implementation 'org.springframework.boot:spring-boot-starter-web'
     developmentOnly 'org.springframework.boot:spring-boot-devtools'
